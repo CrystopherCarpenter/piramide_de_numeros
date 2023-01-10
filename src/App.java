@@ -5,7 +5,7 @@ public class App {
         int dim = Integer.parseInt(System.console().readLine());
 
         for (int i = 1; i <= dim; i++) {
-            String num = Integer.toString(i);
+            String num = String.valueOf(i);
 
             for (int j = 1; j < i; j++) {
                 num = num + i; 
